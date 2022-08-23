@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+/* @@@@@@@@@@@@ Hero Section CSS @@@@@@@@@@@@@ */
+.hero{
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(21, 134, 55, 0.274), rgba(2, 2, 121, 0.603)), url("./images/donation10.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero h2{
+    color: #ffffff;
+    font-size: 65px;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+.hero p{
+    width: 691px;
+    text-align: center;
+    color:#ffffff;
+    font-size: 25px;
+    padding: 2rem;
+}
+.hero button{
+    font-size: 28px;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: #FA5561;
+    border: none;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.hero button:hover{
+   background-color:#c70915;
+   color: rgb(252, 247, 247);
+   transition: .5s all ease-in-out;
+   cursor: pointer;
+}
+
+/* @@@@@@@@@@@@ /Hero Section CSS @@@@@@@@@@@@@ */
+
+
+
+/* @@@@@@@@@@@@ Service Section CSS @@@@@@@@@@@@@ */
+
+.service{
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    height: 800px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.service h2{
+    color: #000;
+    font-size: 45px;
+    text-align: center;
+    padding: 2rem 0rem;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.service p{
+    width: 691px;
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.service .plan{
+}
+.service .plan ul{
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   margin-bottom: 80px;
+}
+.service .plan ul li{
+   list-style: none;
+   background-color: #FEEEEE;
+   padding: 2.5rem 2rem;
+   margin: 0px 5px;
+   font-weight: bold;
+   color: #707070;
+   border-radius: 10px;
+   font-size: 25px;
+
+}
+.service .plan ul li:hover{
+   background-color: #ebd4d4;
+   cursor: pointer;
+   transition: .3s all ease-in;
+}
+.service .plan .selected{
+   list-style: none;
+   background-color: #f1cdcd;
+   padding: 2.5rem 2rem;
+   margin: 0px 5px;
+   font-weight: bold;
+   color: red;
+   border: 2px solid red;
+
+}
+.service input{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    margin-bottom: 50px;
+    outline: none;
+}
+.service button{
+    width: 250px;
+    font-size: 25px;
+    padding: 1rem 1.7rem;
+    border-radius: 10px;
+    background-color: #FA5561;
+    border: none;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+.service button:hover{
+    background-color:#c70915;
+   color: rgb(252, 247, 247);
+   transition: .5s all ease-in-out;
+   cursor: pointer;
+}
+
+/* @@@@@@@@@@@@ /Service Section CSS @@@@@@@@@@@@@ */
+
+
+
+
+
+
+/* @@@@@@@@@@@@ Plan Section CSS @@@@@@@@@@@@@ */
+
+.plan{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 100px;
+
+}
+.plan .planChart{
+    padding: 1.2rem;
+    margin: 10px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.plan .planChart img{
+    padding: 2rem 0rem;
+    right: 0;
+}
+.plan .planChart h3{
+   font-size: 22px;
+   padding: 1rem 0rem;
+}
+.plan .planChart p{
+   font-size: 16px;
+}
+.plan .chartOne{
+    background-color: #EDF5F6;
+}
+.plan .chartTwo{
+    background-color: #FEEEEE;
+}
+.plan .chartThree{
+    background-color: #FEF4D7;
+}
+
+/* @@@@@@@@@@@@ /Plan Section CSS @@@@@@@@@@@@@ */
+
+
+/* @@@@@@@@@@@@ Footer Section CSS @@@@@@@@@@@@@ */
+
+.footer{
+    background: #000;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h1{
+    color: #FB575D;
+}
+.footer h5{
+    color: white;
+    margin-top: 20px;
+}
+
+/* @@@@@@@@@@@@ /Footer Section CSS @@@@@@@@@@@@@ */
